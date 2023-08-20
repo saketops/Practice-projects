@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.training-section h1 {
+    text-align: center;
+    padding: 25px 0px;
+    /*25 from top and bottom, 0 from left-right*/
+
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+    /*horizontally center the element*/
+    display: flex;
+    /* arranges on main axis*/
+
+    flex-wrap: wrap;
+    /*will wrap on multiple lines*/
+    justify-content: space-around;
+    /*on main axis*/
+}
+
+.training-items {
+    flex-basis: 23%;
+    background: blueviolet;
+    text-align: center;
+    padding: 20px 0px;
+    margin: 10px 0px;
+    background: white;
+    box-shadow: 0px 0px 10px 3px lightgrey;
+
+}
+
+.training-items:hover {
+    background-color: burlywood;
+
+}
+
+.training-items:hover h3,
+.training-items:hover p {
+    color: white;
+
+}
+
+.training-items:hover button {
+    background-color: white;
+
+}
+
+
+
+
+.training-items h3 {
+    padding: 10px 0px;
+}
+
+.training-items p {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.training-items button {
+    background: blue;
+    padding: 10px 25px;
+
+}
+
+
+/*media always in the end
+@media (min-width:200px) {
+    .container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .training-items {
+        margin: 10px;
+    }
+}
+
+
+@media (max-width:767px) {
+    .container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .training-items {
+        margin: 10px;
+    }
+
+
+}
+*/
